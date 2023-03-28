@@ -15,6 +15,13 @@ button{
     padding: 5px;
     min-width: 60px;
 }
+.font-rule{
+font-size: 12px;
+}
+
+.jump-down{
+    margin-bottom: 30px;
+}
 
 /* // -------------------------------------------------------------------------------------------- */
 
@@ -47,7 +54,6 @@ nav{
     background-color: rgb(1,97,254);
     color: white;
     border: #4d4d4d;
-    font-size: 15px;
 }
 
             /* * Qui finisce il navigator dentro nav */
@@ -71,13 +77,14 @@ nav{
 .jumbo-mega-container{
     width: 60%;
     margin: auto;
+    padding: 68px 0px 0px 0px;
 }
 
 h1{
     font-size: 60px;
     font-weight: bolder;
     line-height: 1.2em;
-    margin-top: 20px;    
+    margin-bottom: 40px;    
 }
 
 
@@ -89,8 +96,18 @@ h1{
 }
 /* todo Qui inizia il "jumbotron-subcontainer"  */
 
-.jumbotron-subcontainer{
-    max-width: 50%;
+.jumbotron-subcontainer-left{
+    max-width: 30%;
+}
+
+.down-arrow{
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 1000px;
+}
+
+.jumbotron-subcontainer-right{
+    max-width: 70%;
 }
 
 #jumbotron-pic{
