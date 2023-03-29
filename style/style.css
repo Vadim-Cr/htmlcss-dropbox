@@ -275,7 +275,54 @@ gap: 1rem;
 }
 
     /* *qui finisce il third container */
+/* * ------------------------------------------------------------------------- */
+    /* * Qui inizia il fourth-container */
 
+.fourth-container{
+    width: 60%;
+    margin: 8rem auto 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fourth-container-title{
+    font-size: 2.75rem;
+    margin-bottom: 2.5rem;
+}
+
+.fourth-container-row{
+    display: flex;
+    margin-bottom: 3rem;
+    gap: 6rem;
+}
+
+.fourth-container-row-content{
+    width: calc(100% / 3);
+}
+
+.fourth-c-img{
+    width: 100%;
+}
+.h3-fourth-container{
+    margin: 2rem 0 2rem;
+}
+
+    /* * Qui finisce il fourth-container */
+/* * ----------------------------------------------------------- */
+
+/* * Qui inizia il fifth container */
+.fifth-container{
+    width: 60%;
+    margin: auto;
+}
+
+.fifth-c-title{
+    font-size: 3rem;
+}
+
+.fifth-c-htext{
+margin: 3rem 0 3rem 0;
+}
+/* * Qui finisce il fifth container */
 /* ! DEBUG */
 
 /* header{
