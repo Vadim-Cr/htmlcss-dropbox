@@ -12,9 +12,17 @@ button{
     color: #4d4d4d;
     border: solid 1px #4d4d4d;
     background-color: white;
-    padding: 5px;
-    min-width: 60px;
+    padding: 0.75rem;
+    min-width: 3.8rem;
 }
+
+.blue{
+    background-color: rgb(1,97,254);
+    color: white;
+    border: #4d4d4d;
+    padding: 0.75rem 2rem;
+}
+
 .font-rule{
 font-size: 12px;
 }
@@ -23,24 +31,32 @@ font-size: 12px;
     margin-bottom: 30px;
 }
 
+.container-width{
+    width: 50%;
+    margin: auto;
+}
+
 /* // -------------------------------------------------------------------------------------------- */
 
-/* * Qui inizia il header */
+/* ! Qui inizia il header */
 
 header{
 
-    padding: 5px 25px;
+    padding: 0px 25px;
     
 }
-/* * Qui inizia il nav */
+    /* * Qui inizia il nav */
 
 nav{
-    height: 10vh;
+    height: 4rem;
+    width: calc(100vw - 4.1rem);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
+    position: fixed;
 }
-            /* * Qui inizia il "navigator" dentro nav */
+            /* ? Qui inizia il "navigator" dentro nav */
 .navigator{
     display: flex;
     flex-direction: row;
@@ -50,26 +66,21 @@ nav{
     object-fit: contain;
 }
 
-.blue{
-    background-color: rgb(1,97,254);
-    color: white;
-    border: #4d4d4d;
-}
 
-            /* * Qui finisce il navigator dentro nav */
+            /* ? Qui finisce il navigator dentro nav */
 /* // -------------------------------------------------------------------------------------------- */
-                /* * Qui inizia il  "sub-navigator"*/
+                /* ? Qui inizia il  "sub-navigator"*/
 .sub-navigator{
     padding: 5px 20px;
     color: #4d4d4d;
 
 }
-                /* * Qui finisce il  "sub-navigator"*/
+                /* ? Qui finisce il  "sub-navigator"*/
 /* // -------------------------------------------------------------------------------------------- */
 
-            /* * Qui finisce il nav */
+    /* * Qui finisce il nav */
 /* // -------------------------------------------------------------------------------------------- */
-    /* * Qui inizia il  "jumbotron"*/
+    /* ! Qui inizia il  "jumbotron"*/
 .jumbotron{
     background-color: rgb(180,208,230);
 }
@@ -84,7 +95,7 @@ h1{
     font-size: 60px;
     font-weight: bolder;
     line-height: 1.2em;
-    margin-bottom: 40px;    
+    margin-bottom: 2rem;    
 }
 
 
@@ -95,7 +106,7 @@ h1{
     
 }
 /* todo Qui inizia il "jumbotron-subcontainer"  */
-
+    /* Inizia la parte sinistra del container */
 .jumbotron-subcontainer-left{
     max-width: 30%;
 }
@@ -106,6 +117,10 @@ h1{
     font-weight: 1000px;
 }
 
+    /* Finisce la parte sinistra del container */
+
+    /* Inizia la parte destra del container */
+
 .jumbotron-subcontainer-right{
     max-width: 70%;
 }
@@ -114,11 +129,152 @@ h1{
     object-fit: contain;
     max-width: 100%;
 }
+    /* Finisce la parte destra del container */
 
-    /* * Qui finisce il "jumbotron" */
+/* ! Qui finisce il "jumbotron" */
 /* // -------------------------------------------------------------------------------------------- */
-/* * Qui finisce il header */
+/* ! Qui finisce il header */
 /* // -------------------------------------------------------------------------------------------- */
+
+/* ! Qui inizia il main */
+
+    /* * Qui inizia il first container */
+    /* ? Qui ho messo i pezzi che stanno sopra alle 3 colonne */
+.first-container{
+    margin-top: 60px;
+    }
+
+#radio{
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+#radio2{
+        margin-left: 20px;
+    }
+    /* ? ------------------------------------------------------ */
+    /* ? Qui inizia la parte delle tre colonne con i piani di pagamento */
+.above-container1{
+        display: flex;
+        flex-direction: row;
+        gap: 45px;
+    }
+.container1{
+        border: solid 1px gray;
+
+    }
+.container1-icon-top{
+    text-align: center;
+    border-bottom: solid 1px #000;
+    width: 100%;
+    padding: 10px 0 10px;
+}
+
+.h4-inside-container1{
+    font-size: 25px;
+    padding: 20px 15px;
+}
+
+h4{
+    padding: 0px 15px;
+}
+.gray-text{
+    color: #4d4d4d;
+    padding: 10px;
+}
+
+.container1-rest-style{
+    padding: 15px 15px;
+}
+.button-width{
+    min-width: 80%;
+    margin:auto;
+}
+.middle-first-container{
+        border-bottom: 1px solid #000;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        /* border-width: ; */
+    }
+h5{
+    padding: 25px 15px;
+
+}
+
+    /* * Qui finisce il first container */
+/* *-------------------------------------------------------------------------- */
+    /* * Qui inizia il second container */
+.second-container{
+    border: solid 2px rgba(0, 0, 0, 0.287);
+    width: 60%;
+    margin: 30px auto 10px;
+}
+
+.second-container-top{
+    border-bottom: solid 2px rgba(0, 0, 0, 0.287);
+    text-align: center;
+    width: 100%;
+    padding: 10px 0 10px;
+}
+.info-second-container{
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+
+}
+
+.second-container-rest{
+display: flex;
+padding: 20px;
+justify-content: space-between;
+gap: 1rem;
+}
+.sub-second-container-left{
+    width: 70%;
+}
+#sc-p{
+    margin-top: 2.5rem;
+
+}
+.sub-second-container-right{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.sc-button{
+    width: 100%;
+    height: 3rem;
+}
+    /* * Qui finisce il second container */
+
+
+    /* *qui inizia il third container */
+
+.third-container{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    gap: 2rem;
+    padding-top: 6rem;
+}
+
+.third-container-sub-left{
+    width: 70%;
+}
+
+.third-container-img{
+    width: 100%;
+}
+
+.third-container-sub-right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 3rem;
+    padding-top: 4rem;
+}
+
+    /* *qui finisce il third container */
 
 /* ! DEBUG */
 

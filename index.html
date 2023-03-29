@@ -79,48 +79,95 @@
     <!-- ! Quasi tutti i contenitori nel main hanno lo stesso margine, aggiungiamo una classe che vaa bene per tutti e la ricicliamo -->
 
         <!-- todo Per questo "div" useremo un display flex con flex directon row -->
-        <div class="first-container">
+        <div class="first-container container-width">
                 <!-- todo . inizio con un div che conterrà un "h2", due tasti rotondi  sotto ai quali aggiungereò 3 colonne-->
-            <div class="container1">
-                <!-- todo un altro "div" per l'icona in cima alla colonna -->
-                <div class="container1-icon-top">
-
+            
+                <h2>Trova il piano business che fa per te</h2>
+                <div id="radio">
+                    <input type="radio"> <span> Fatturazione Mensile </span>
+                    <input type="radio" id="radio2"> <span> Fatturazione Annuale </span>
                 </div>
-                <!-- todo un altro "div" che contiene il resto del contenitore -->
-                <div class="container1-rest">
-                    <h4>
+                <div class="above-container1">
 
-                    </h4>
-                    <!-- ! questo div si ripetrà per tutte le colonne tutte le volte a causa del suo font -->
-                    <div class="container1-rest-style">
-
+                    <div class="container1">
+                        <!-- todo un altro "div" per l'icona in cima alla colonna -->
+                        <div class="container1-icon-top">
+                            <i class="fa-solid fa-user"></i> <span>Singolo</span>
+                        </div>
+                        <!-- todo un altro "div" che contiene il resto del contenitore -->
+                        <div class="container1-rest">
+                            <h4 class="h4-inside-container1">
+                                Professional
+                            </h4>
+                            <h4>€ 12.00</h4>
+                            <div class="gray-text">/mese</div>
+                            <div></div>
+                            
+                            <!-- ! questo div si ripetrà per tutte le colonne tutte le volte a causa del suo font -->
+                            <div class="container1-rest-style">
+                                <i class="fa-solid fa-user"></i> <span>1 Utente</span>                                           
+                            </div>
+                            <div class="container1-rest-style">
+                                <i class="fa-regular fa-folder"></i><span> 5 TB di spazio di archiviazione sicuro</span>
+                            </div>
+                            <div class="container1-rest-style">
+                                <i class="fa-sharp fa-solid fa-share-nodes"></i> <span> Funzioni di produtività premium e condivisione file semplice e sicura</span>
+                            </div>
+                            <button class="blue button-width">Prova gratis per 30 giorni</button>
+                            <!-- todo Ho messo qui la classe eprchè in futuro dovrò lavorare sul mezzo border -->
+                            <div class="middle-first-container">
+                                oppure <a href="#">acquista ora</a>
+                            </div>
+                            <!-- todo ------------------------------------------------------------------- -->
+        
+                            <h5>Punti Salienti del piano</h5>
+                            <div class="container1-rest-style"> 
+                                <i class="fa-blue fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert
+                            </div>
+                            <div class="container1-rest-style">
+                                <i class="fa-blue fa-solid fa-check"></i> Cartelle offline su dispositivi mobili
+                            </div>
+                        </div>
+                    
                     </div>
-
-                </div>
-            </div>
+                    
+              </div>
         </div>
         <!--  todo Anche questo "div" sarà un contenitore -->
         <div class="second-container">
             <!-- todo Il titolo e il tasto li metto in space between -->
             <div class="second-container-top">
-                <h3>
-
-                </h3>
-                un tasto blu
-
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga quaerat enim tempore provident culpa ipsa veritatis! Perspiciatis officiis ipsum S
-                </p>
+                <i class="fa-solid fa-building"></i> <Span> Team</Span>
+            </div>
+            <div class="second-container-rest">
+                <div class="sub-second-container-left">
+                    <h3 class="info-second-container">
+                        Enterprise
+                    </h3>
+                    <div class="info-second-container">Contatta l'ufficio vendite per i prezzi</div>
+                    <p id="sc-p">
+                        Soluzoini personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.
+                    </p>
+                </div>
+                <div class="sub-second-container-right">
+                    <button class="blue sc-button">Contatta l'ufficio vendite</button>
+                </div>
             </div>
         </div>
         <!-- todo Un div con una foto sulla sinistra e testo con tasto in basso sulla destra -->
         <div class="third-container">
-            <img src="" alt="">
-            <h3></h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel voluptates porro nam quasi aut earum culpa! Expedita fugiat ullam hic nisi tenetur amet.
-            </p>
-            tasto bianco/div con bordo e "href"
+            <div class="third-container-sub-left">
+                <img class="third-container-img" src="img/partner.png" alt="partners">
+            </div>
+            <div class="third-container-sub-right">
+                <h3>Entra in contatto con un partner Dropbox</h3>
+                <p>
+                    Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari pe rraggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supoprto continui.
+                </p>
+                
+                <button>Trova un partner</button>
+            </div>
+                
         </div>
         <!-- todo Qui servono tre classi di contenitore -->
         <div class="fourth-container">
