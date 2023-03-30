@@ -289,10 +289,12 @@ gap: 1rem;
     margin-bottom: 2.5rem;
 }
 
+/* todo bisogna cambiare il font-size su  "fourth-container-row" per stare nelle giuste dimensioni*/
+
 .fourth-container-row{
     display: flex;
     margin-bottom: 3rem;
-    gap: 6rem;
+    /* gap: 6rem; */
 }
 
 .fourth-container-row-content{
@@ -323,6 +325,52 @@ gap: 1rem;
 margin: 3rem 0 3rem 0;
 }
 /* * Qui finisce il fifth container */
+/* * ------------------------------------------------------------- */
+
+/* * Qui inizia il sixth-container */
+
+.sixth-container{
+display: flex;
+}
+
+.sixth-container-left-right{
+width: calc(100% / 3);
+display: flex;
+flex-wrap: wrap;
+}
+
+.sixth-container-center{
+width: calc(100% / 3);
+border: solid 1px black;
+background-color: #F5F5F5;
+padding: 2.5rem 2rem;
+}
+.scc-svg{
+margin-bottom: 2rem;
+}
+
+
+.fifth-c-svg{
+width: calc(100%/2);
+fill: white;
+}
+.svg1{
+background-color: #A2D39B;
+}
+.svg2{
+background-color: #62082B;
+
+}
+.svg3{
+background-color: #0193CE;
+
+}
+.svg4{
+background-color: #FE1C1D;
+}
+
+/* * Qui finisce il sixth-container */
+
 /* ! DEBUG */
 
 /* header{
