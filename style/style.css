@@ -10,7 +10,7 @@
 
 button{
     color: #4d4d4d;
-    border: solid 1px #4d4d4d;
+    border: solid 1px white;
     background-color: white;
     padding: 0.75rem;
     min-width: 3.8rem;
@@ -340,15 +340,21 @@ flex-wrap: wrap;
 }
 
 .sixth-container-center{
-width: calc(100% / 3);
+width: calc(100vw / 3);
+height: calc(100vw/3);
 border: solid 1px black;
 background-color: #F5F5F5;
 padding: 2.5rem 2rem;
+overflow: auto;
 }
 .scc-svg{
-margin-bottom: 2rem;
+margin-bottom: 1rem;
 }
+.separator{
 
+    color:  rgba(0, 0, 0, 0.287);
+    margin-bottom: 2rem;
+}
 
 .fifth-c-svg{
 width: calc(100%/2);
@@ -370,6 +376,28 @@ background-color: #FE1C1D;
 }
 
 /* * Qui finisce il sixth-container */
+/* *-------------------------------------------------------------- */
+
+/* * qui iniza il seventh container */
+.seventh-container{
+background-color: #B4D0E6;
+}
+
+.seventh-subcontainer{
+    height: 20rem;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seventh-c-title{
+color: #590631;
+font-size: 2.25rem;
+}
+
+/* * qui finisce il seventh container */
 
 /* ! DEBUG */
 
